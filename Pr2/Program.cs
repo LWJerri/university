@@ -24,6 +24,13 @@
       task3.Run();
 
       Console.WriteLine();
+
+      Console.WriteLine("Task #4:");
+
+      Task4 task4 = new Task4();
+      task4.Run();
+
+      Console.WriteLine();
     }
   }
 }
