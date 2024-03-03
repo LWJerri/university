@@ -1,0 +1,15 @@
+/home/lwjerri/projects/university/Pr2/bin/Debug/net8.0/Pr2
+/home/lwjerri/projects/university/Pr2/bin/Debug/net8.0/Pr2.deps.json
+/home/lwjerri/projects/university/Pr2/bin/Debug/net8.0/Pr2.runtimeconfig.json
+/home/lwjerri/projects/university/Pr2/bin/Debug/net8.0/Pr2.dll
+/home/lwjerri/projects/university/Pr2/bin/Debug/net8.0/Pr2.pdb
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.GeneratedMSBuildEditorConfig.editorconfig
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.AssemblyInfoInputs.cache
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.AssemblyInfo.cs
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.csproj.CoreCompileInputs.cache
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.sourcelink.json
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.dll
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/refint/Pr2.dll
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.pdb
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/Pr2.genruntimeconfig.cache
+/home/lwjerri/projects/university/Pr2/obj/Debug/net8.0/ref/Pr2.dll
