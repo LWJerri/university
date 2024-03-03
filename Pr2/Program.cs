@@ -17,6 +17,13 @@
       task2.Run();
 
       Console.WriteLine();
+
+      Console.WriteLine("Task #3:");
+
+      Task3 task3 = new Task3();
+      task3.Run();
+
+      Console.WriteLine();
     }
   }
 }
