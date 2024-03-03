@@ -10,6 +10,13 @@
       task1.Run();
 
       Console.WriteLine();
+
+      Console.WriteLine("Task #2:");
+
+      Task2 task2 = new Task2();
+      task2.Run();
+
+      Console.WriteLine();
     }
   }
 }
