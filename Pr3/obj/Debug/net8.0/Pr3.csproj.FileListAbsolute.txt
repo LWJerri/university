@@ -1,0 +1,15 @@
+/home/lwjerri/projects/university/Pr3/bin/Debug/net8.0/Pr3
+/home/lwjerri/projects/university/Pr3/bin/Debug/net8.0/Pr3.deps.json
+/home/lwjerri/projects/university/Pr3/bin/Debug/net8.0/Pr3.runtimeconfig.json
+/home/lwjerri/projects/university/Pr3/bin/Debug/net8.0/Pr3.dll
+/home/lwjerri/projects/university/Pr3/bin/Debug/net8.0/Pr3.pdb
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.GeneratedMSBuildEditorConfig.editorconfig
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.AssemblyInfoInputs.cache
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.AssemblyInfo.cs
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.csproj.CoreCompileInputs.cache
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.sourcelink.json
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.dll
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/refint/Pr3.dll
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.pdb
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/Pr3.genruntimeconfig.cache
+/home/lwjerri/projects/university/Pr3/obj/Debug/net8.0/ref/Pr3.dll
