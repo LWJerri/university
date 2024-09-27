@@ -3,6 +3,13 @@ package ua.lwjerri;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
 public class History {
   private List<Product> products;
 
@@ -10,8 +17,7 @@ public class History {
     this.products = new ArrayList<>();
   }
 
-  @Override
-  public String toString() {
+  public String toStringResult() {
     StringBuilder sb = new StringBuilder("Список всіх замовлень:\n");
 
     for (Product product : products) {

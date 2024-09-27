@@ -3,24 +3,18 @@ package ua.lwjerri;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
 public class Cart {
   private List<Product> products;
 
   public Cart() {
     this.products = new ArrayList<>();
-  }
-
-  @Override
-  public String toString() {
-    StringBuilder sb = new StringBuilder("Кошик містить:\n");
-
-    for (Product product : products) {
-      sb.append(product.toString()).append("\n");
-    }
-
-    sb.append("Загальна вартість: ").append(getTotalPrice());
-
-    return sb.toString();
   }
 
   public void addProduct(Product product) {
@@ -32,17 +26,7 @@ public class Cart {
   }
 
   public double getTotalPrice() {
-    double total = 0;
-
-    for (Product product : products) {
-      total += product.getPrice();
-    }
-
-    return total;
-  }
-
-  public List<Product> getProducts() {
-    return new ArrayList<>(products);
+    return products.stream().mapToDouble(Product::getPrice).sum();
   }
 
   public void clear() {

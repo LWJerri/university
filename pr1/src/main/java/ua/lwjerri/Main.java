@@ -40,30 +40,40 @@ public class Main {
       int choice = scanner.nextInt();
       switch (choice) {
         case 1:
-          System.out.println(product1);
-          System.out.println(product2);
-          System.out.println(product3);
+          productList.forEach(System.out::println);
 
           break;
+
         case 2:
           System.out.println("Введіть ID товару для додавання до кошика:");
-
           int selectProductId = scanner.nextInt();
 
-          if (selectProductId == 1)
-            cart.addProduct(product1);
-          else if (selectProductId == 2)
-            cart.addProduct(product2);
-          else if (selectProductId == 3)
-            cart.addProduct(product3);
-          else
-            System.out.println("Товар з таким ID не знайдено");
+          switch (selectProductId) {
+            case 1:
+              cart.addProduct(product1);
+
+              break;
+            case 2:
+              cart.addProduct(product2);
+
+              break;
+            case 3:
+              cart.addProduct(product3);
+
+              break;
+            default:
+              System.out.println("Товар з таким ID не знайдено");
+
+              break;
+          }
 
           break;
+
         case 3:
           System.out.println(cart);
 
           break;
+
         case 4:
           if (cart.getProducts().isEmpty()) {
             System.out.println("Кошик порожній. Додайте товари перед оформленням замовлення.");
@@ -77,7 +87,9 @@ public class Main {
 
             cart.clear();
           }
+
           break;
+
         case 5:
           if (cart.getProducts().isEmpty()) {
             System.out.println("Кошик порожній. Додайте товари перед оформленням замовлення.");
@@ -86,35 +98,47 @@ public class Main {
 
             int removeProductId = scanner.nextInt();
 
-            if (removeProductId == 1)
-              cart.removeProduct(product1);
-            else if (removeProductId == 2)
-              cart.removeProduct(product2);
-            else if (removeProductId == 3)
-              cart.removeProduct(product3);
-            else
-              System.out.println("Товар з таким ID не знайдено");
+            switch (removeProductId) {
+              case 1:
+                cart.removeProduct(product1);
+
+                break;
+              case 2:
+                cart.removeProduct(product2);
+
+                break;
+              case 3:
+                cart.removeProduct(product3);
+
+                break;
+              default:
+                System.out.println("Товар з таким ID не знайдено");
+
+                break;
+            }
           }
 
           break;
+
         case 6:
           System.out.println("Введіть ключове слово для пошуку.");
 
           scanner.nextLine();
-
           String searchKeyword = scanner.nextLine();
 
           List<Product> result = Search.searchProducts(productList, searchKeyword);
-
           result.forEach(System.out::println);
 
           break;
+
         case 7:
           System.out.println(history);
 
           break;
+
         case 0:
           System.out.println("Дякуємо, що використовували наш магазин!");
+
           return;
 
         default:
