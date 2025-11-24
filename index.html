@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>TypeScript</title>
+
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header id="main-header">
+			<div class="container">
+				<h1>TypeScript</h1>
+				<nav>
+					<button id="load-data-btn">Завантажити дані</button>
+				</nav>
+			</div>
+		</header>
+
+		<main class="container">
+			<section class="hero">
+				<h2>Ласкаво просимо</h2>
+
+				<button id="info-btn" class="primary-btn">Дізнатися більше</button>
+			</section>
+
+			<section id="posts-container" class="posts-grid">
+				<div class="placeholder-text">Натисніть "Завантажити дані" щоб отримати пости з API.</div>
+			</section>
+		</main>
+
+		<div id="my-modal" class="modal hidden">
+			<div class="modal-content">
+				<span class="close-btn">&times;</span>
+
+				<h3>Інформація</h3>
+				<p>Якийсь текст всередині модального вікна</p>
+			</div>
+		</div>
+
+		<script src="dist/app.js"></script>
+	</body>
+</html>
